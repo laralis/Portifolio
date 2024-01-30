@@ -9,7 +9,7 @@ const ProjectsContainer = () => {
     <section className="projects-container">
       <h2>Projetos</h2>
       <p>
-        Durante minha trajetória de aprendizado, dediquei-me á execução de
+        Durante minha trajetória de aprendizado, dediquei-me à execução de
         diversos projetos, visando a consolidação dos conhecimentos adquiridos
         em cada nova tecnologia explorada. Estas iniciativas não apenas
         representam marcos significativos em meu percurso, mas também evidenciam
@@ -83,7 +83,7 @@ const ProjectsContainer = () => {
           </div>
           <div className="infos">
             <p>
-              Um cronometro para estudos, útil para quem gosta de utilizar o método Pomodoro. Também contra com músicas ambientes para ajudar na concentração.
+              Um crônometro para estudos, útil para quem gosta de utilizar o método Pomodoro. Também contra com músicas ambientes para ajudar na concentração.
             </p>
             <a
               href="https://focus-timer-ashy.vercel.app/"
