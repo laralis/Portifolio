@@ -1,25 +1,24 @@
-import React from "react";
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { DeviceMobile, Envelope, MapPinArea } from "@phosphor-icons/react";
 import "../styles/components/informationcontainer.sass";
-const InformationContainer = () => {
+export default function InformationContainer() {
   return (
     <section id="information">
       <div className="info-card">
-        <AiFillPhone id="phone-icon" />
+        <DeviceMobile size={32} color="#dd24bc" />
         <div>
           <h3>Telefone</h3>
           <p>(77)99817-0735</p>
         </div>
       </div>
       <div className="info-card">
-        <AiOutlineMail id="email-icon" />
+        <Envelope size={32} color="#dd24bc" />
         <div>
           <h3>E-mail</h3>
           <p>larimlisboa@gmail.com</p>
         </div>
       </div>
       <div className="info-card">
-        <AiFillEnvironment id="pin-icon" />
+        <MapPinArea size={32} color="#dd24bc" />
         <div>
           <h3>Localização</h3>
           <p>Vitória da Conquista/BA</p>
@@ -27,5 +26,4 @@ const InformationContainer = () => {
       </div>
     </section>
   );
-};
-export default InformationContainer;
+}

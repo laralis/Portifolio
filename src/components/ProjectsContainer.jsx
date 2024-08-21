@@ -1,10 +1,10 @@
-import React from "react";
 import "../styles/components/projectscontainer.sass";
 import project1 from "../img/project1.png";
-import project2 from '../img/project2.png'
-import project3 from '../img/project3.png'
-import project4 from '../img/project4.png'
-const ProjectsContainer = () => {
+import project2 from "../img/project2.png";
+import project3 from "../img/project3.png";
+import project4 from "../img/project4.png";
+import project5 from "../img/project5.png";
+export default function ProjectsContainer() {
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
@@ -29,7 +29,7 @@ const ProjectsContainer = () => {
               com tags.
             </p>
             <a
-              href="https://rocketnotes-navy.vercel.app/"
+              href="https://github.com/laralis/Rocketnotes"
               target="__blank"
               className="btn"
             >
@@ -41,7 +41,7 @@ const ProjectsContainer = () => {
           <div className="header">
             <h3>GitFav</h3>
 
-            <img src={project2} alt="RocketNotes" />
+            <img src={project2} alt="GitFav" />
           </div>
           <div className="infos">
             <p>
@@ -60,11 +60,12 @@ const ProjectsContainer = () => {
           <div className="header">
             <h3>DoctorCare</h3>
 
-            <img src={project3} alt="RocketNotes" />
+            <img src={project3} alt="DoctorCare" />
           </div>
           <div className="infos">
             <p>
-              Uma landing page para sistema de assistência médica. Possui uma navegação facilitada e animações de rolagem da página.
+              Uma landing page para sistema de assistência médica. Possui uma
+              navegação facilitada e animações de rolagem da página.
             </p>
             <a
               href="https://doctor-care-red.vercel.app/#home"
@@ -79,11 +80,13 @@ const ProjectsContainer = () => {
           <div className="header">
             <h3>FocusTimer</h3>
 
-            <img src={project4} alt="RocketNotes" />
+            <img src={project4} alt="FocusTimer" />
           </div>
           <div className="infos">
             <p>
-              Um crônometro para estudos, útil para quem gosta de utilizar o método Pomodoro. Também contra com músicas ambientes para ajudar na concentração.
+              Um crônometro para estudos, útil para quem gosta de utilizar o
+              método Pomodoro. Também contra com músicas ambientes para ajudar
+              na concentração.
             </p>
             <a
               href="https://focus-timer-ashy.vercel.app/"
@@ -94,8 +97,28 @@ const ProjectsContainer = () => {
             </a>
           </div>
         </div>
+        <div className="projects-card">
+          <div className="header">
+            <h3>Coffee Delivery</h3>
+
+            <img src={project5} alt="Coffee Delivery" />
+          </div>
+          <div className="infos">
+            <p>
+              Uma plataforma de entrega de café delivery desenvolvida em
+              contribuição com outro desenvolvedor para praticar habilidades em
+              tecnologias como Next, React, Typescript e Tailwind.
+            </p>
+            <a
+              href="https://github.com/GerdanyJr/coffee-delivery"
+              target="__blank"
+              className="btn"
+            >
+              Ver projeto
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
-};
-export default ProjectsContainer;
+}

@@ -16,3 +16,16 @@
   background: variables.$gradient
   height: 3px
   width: 30%
+@mixin mob 
+  @media (min-width: 0px)
+    @content
+@mixin tab 
+  @media (min-width: 820px)
+    @content
+@mixin m 
+  @media (min-width: 1280px)
+    @content
+@mixin desk 
+  @media (min-width: 1400px)
+    @content
+           

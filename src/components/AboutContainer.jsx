@@ -1,12 +1,23 @@
-import {  } from "module";
-
-const AboutContainer = () => {
+export default function AboutContainer() {
   return (
     <section className="about-container">
       <h2>Sobre</h2>
-      <p>Recém-formada em Ciência da Computação pela UESB, estou em busca do meu primeiro emprego na área de desenvolvimento web. Tenho conhecimentos em CSS, HTML, JavaScript, Bootstrap, React e Node. Também possuo conhecimento na língua inglesa.</p>
-      <p> Estou animada para continuar aprendendo, enfrentar desafios e contribuir para projetos inovadores, aproveitando a oportunidade para compartilhar minha paixão e comprometimento com o desenvolvimento web.</p>
+      <p>
+        Sou formada em Ciências da Computação pela UESB e atuo na área de
+        desenvolvimento web com foco em Front-end. Tenho experiência com
+        diversas tecnologias, incluindo React, TypeScript, Next.js, Tailwind
+        CSS, Git, Figma, Bootstrap, Styled Components e Sass. Além disso, estou
+        familiarizada com metodologias ágeis, como Scrum, e possuo um bom
+        domínio da língua inglesa.
+      </p>
+      <p>
+        {" "}
+        Estou constantemente buscando expandir meus conhecimentos e aprimorar
+        minhas habilidades. Sou apaixonada por desenvolvimento web e estou
+        sempre pronta para enfrentar novos desafios, contribuir para projetos
+        inovadores e compartilhar meu comprometimento com a excelência na
+        entrega de soluções digitais.
+      </p>
     </section>
   );
-};
-export default AboutContainer;
+}

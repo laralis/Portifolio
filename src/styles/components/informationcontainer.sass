@@ -8,17 +8,25 @@
   padding: 1rem
   margin-bottom: 2rem
   text-align: left
-  width: 80%
+ 
   border-radius: variables.$card-border-radius
+  @include mixins.mob
+    max-width: none
+    width: 80%
+  @include mixins.m
+    max-width: 300px
+    width: auto
 
   .info-card
     @include mixins.center
     justify-content: start
-    gap: 1rem
+    gap: .5rem
     padding-bottom: .8rem
     margin-bottom: .8rem
     border-bottom: 1px solid #444
     width: 100%
+    @include mixins.m
+      max-width: 220px
 
     h3
       color: variables.$text-color-secondary
@@ -30,7 +38,7 @@
       font-weight: bold
     
     svg
-      background-color: variables.$bg-color
+     
       padding: .4rem
       width: 2rem
       height: 2rem
